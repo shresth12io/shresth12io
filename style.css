@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+body{
+    overflow: hidden;
+    background-color: black;
+}
+.navbar{
+    height:80vh;
+    width:5vw;
+    background-color:black;
+    color: white;
+    box-shadow: 10px 0 0 white;
+    display:flex;
+    z-index:111111111111111111111111111111111111111111;
+    text-align:center;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    border-bottom-right-radius:20px;
+    position:absolute;
+    margin-top:-5vh;
+}
+.navbar:hover{
+    width:30vw;
+}
+ul{
+    list-style: none;
+}
+li{
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    
+}
+li a{
+    margin-top:2vh;
+    margin-left:1vw;
+    height:9vh;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    width:30vw;
+    color: white;
+    font-size:20px;
+    text-decoration: none;
+}
+.icon{
+    display:flex;
+    margin-top:0.4vh;
+}
+.components.active li{
+    background-color:white;
+}
+.components li:hover{
+    background-color:white;
+}
+.icon ion-icon{
+    font-size: 3vw;
+    margin-right:5vw;
+    margin-right:0.5vw;
+}
+.text{
+    margin-left:5vw;
+}
+a:hover{
+    color:black;
+}
+.active a{
+    color:black;
+}
+.swiper-container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    z-index: 1;
+  }
+
+  .swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    background: content-box linear-gradient(rgb(155, 155, 155), rgb(255, 255, 255));
+    border-radius: 20px;
+  }
+  .sliderme{
+      min-height:100vh;
+      margin-top:5vh;
+  }

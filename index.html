@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+        <div class="components active">
+            <li><a href="#"><div class="icon"><ion-icon name="add-circle-outline"></ion-icon></div><div class="text">WELCOME PAGE</div></a></li>
+        </div>
+        <div class="components">
+            <li><a href="#"><div class="icon"><ion-icon name="add-circle-outline"></ion-icon></div><div class="text">HOME</div></a></li>
+            </div>
+        <div class="components">
+            <li><a href="#"><div class="icon"><ion-icon name="add-circle-outline"></ion-icon></div><div class="text">PROFILE</div></a></li></div>
+        <div class="components">
+            <li><a href="#"><div class="icon"><ion-icon name="add-circle-outline"></ion-icon></div><div class="text">ABOUT</div></a></li></div>
+        <div class="components">
+            <li><a href="#"><div class="icon"><ion-icon name="add-circle-outline"></ion-icon></div><div class="text">SETTINGS</div></a></li></div>
+        <div class="components">
+            <li><a href="#"><div class="icon"><ion-icon name="add-circle-outline"></ion-icon></div><div class="text">LOGOUT</div></a></li></div>
+        <div class="components">
+        </ul>
+    </div>
+    <div class="sliderme">
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> 1111111111111111111111111222222222222222<br>22222222222222222222222222</div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          <div class="swiper-slide"> </div>
+          </div>
+        </div>
+        </div>
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 600,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+    });
+  </script>
+</body>
+</html>
